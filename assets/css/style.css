@@ -2,6 +2,7 @@
 
 :root {
     --primary: #F11478;
+    --primary-one: #FFC629;
     --primary-light: #603f832b;
     --secondary: #e69a8d;
     --white: #f8f9fa;
@@ -50,6 +51,9 @@ button:focus {
 .text-primary {
     color: var(--primary) !important;
 }
+.text-primary-one{
+    color: var(--primary-one)!important;
+}
 
 .bgc-primary {
     background-color: var(--black);
@@ -61,7 +65,7 @@ button:focus {
 
 .badge.text-bg-primary {
     color: var(--white) !important;
-    background-color: var(--primary) !important;
+    background-color: var(--primary-one) !important;
 }
 
 .btn:hover {
@@ -295,7 +299,7 @@ footer{
     color: var(--white);
 }
 .location-tag {
-    background: linear-gradient(90deg, rgb(183 0 141) 0%, rgba(128, 0, 128) 51%, rgb(241 20 120) 100%);
+    background: linear-gradient(90deg, rgb(255 198 41) 0%, rgb(241 19 120) 51%, rgb(255 198 41) 100%);
     color: #fff;
 }
 .location-tag a{
@@ -433,7 +437,7 @@ footer{
     color: var(--white);
 }
 .bg-dark-section{
-    background: var(--primary);
+    background: var(--black);
 }
 .profile-gallery ul li {
     margin: 5px;
@@ -514,7 +518,7 @@ footer{
     width: 50%;
 }
 .lcol {
-    background-color: #B7008D;
+    background-color: var(--primary-one);
 }
 .lcol a, .rcol a {
     display: block;
