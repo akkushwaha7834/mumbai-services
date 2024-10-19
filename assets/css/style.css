@@ -89,6 +89,12 @@ button:focus {
     --bs-btn-disabled-bg: var(--primary);
     --bs-btn-disabled-border-color: var(--primary);
 }
+.internal_link_class{
+    color: blue;
+}
+.internal_link_class:hover{
+    color: var(--primary);
+}
 
 /* header */
 .header {
